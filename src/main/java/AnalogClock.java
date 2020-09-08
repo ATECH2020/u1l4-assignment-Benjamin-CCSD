@@ -15,7 +15,7 @@ class AnalogClock {
         int minsDegrees = minsPast*6;
 
         //Prints result
-        System.out.println(minsDegrees);
+        System.out.print(minsDegrees);
 
         // closing the scanner object
         scanner.close();

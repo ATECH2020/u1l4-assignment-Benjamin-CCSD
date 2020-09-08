@@ -23,7 +23,7 @@ class Timestamps {
         int totalDiff = (hourDiff * 3600) + (minutesDiff * 60) + secondsDiff;
 
         //Prints result
-        System.out.println(totalDiff);
+        System.out.print(totalDiff);
         
         // closing the scanner object
         scanner.close();

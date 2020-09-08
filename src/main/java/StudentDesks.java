@@ -20,7 +20,7 @@ class StudentDesks {
         int seatSum = seatsA + seatsB + seatsC;
         
         //Prints sum
-        System.out.println(seatSum);
+        System.out.print(seatSum);
 
         // closing the scanner object
         scanner.close();
