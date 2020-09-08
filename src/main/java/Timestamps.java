@@ -14,12 +14,17 @@ class Timestamps {
         int minutes2 = scanner.nextInt();
         int seconds2 = scanner.nextInt();
 
+        //Computes difference in each unit
+        int hourDiff = hours2 - hours1;
+        int minutesDiff = minutes2 - minutes1;
+        int secondsDiff = seconds2 - seconds1;
 
-        /*
-         *  your code goes here
-         */
+        //Converts differences to seconds
+        int totalDiff = (hourDiff * 3600) + (minutesDiff * 60) + secondsDiff;
 
-
+        //Prints result
+        System.out.print(totalDiff);
+        
         // closing the scanner object
         scanner.close();
     }
